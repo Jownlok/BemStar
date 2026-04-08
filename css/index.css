@@ -1,75 +1,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&display=swap');
 .Header {
-    position: relative;
-    margin-bottom: 50px;
-    display: flex;
-    word-spacing: 200px;
-    width: 100%;
-    height: 100px;
+    position: relative; border-bottom: dashed 5px rgb(255, 255, 255);
+    margin-bottom: 50px;display: flex;word-spacing: 200px;width: 100%;height: 100px;
     background-color: rgb(201, 201, 201);
 }
 .button {
-    margin-left: 100px;
-    position:relative; margin-top: 20px;
-    width: 180px; height: 40px;
+    margin-left: 100px;position:relative; margin-top: 20px;width: 180px; height: 40px;
     background-color: rgb(255, 255, 255); border: solid 8px rgb(255, 255, 255); border-radius: 10px;text-decoration: none;
     font-size: 20px; color: black; font-family: 'Playwrite IE', cursive;
 }
 .button:hover {
     opacity: 0.5;
-
 }
 .button2:hover {
     opacity: 0.5;
-
 }
 .button3:hover {
     opacity: 0.5;
-
 }
 .button2 {
-    margin-left: 100px;
-    position:relative; margin-top: 20px;
-    width: 180px; height: 40px;
+    margin-left: 100px;position:relative; margin-top: 20px;width: 180px; height: 40px;
     background-color: rgb(255, 255, 255); border: solid 8px rgb(255, 255, 255); border-radius: 10px;text-decoration: none;
     font-size: 20px; color: black; font-family: 'Playwrite IE', cursive;
 }
 .button3 {
-    margin-left: 100px;
-    position:relative; margin-top: 20px;
-    width: 180px; height: 40px;
-    background-color: rgb(255, 255, 255); border: solid 8px rgb(255, 255, 255); border-radius: 10px;text-decoration: none;
+    margin-left: 100px;position:relative; margin-top: 20px;width: 180px; height: 40px;
+    background-color: rgb(255, 255, 255); border: solid 8px rgb(255, 255, 255); 
+    border-radius: 10px;text-decoration: none;
     font-size: 20px; color: black; font-family: 'Playwrite IE', cursive;
 }
 #logo {
-    height: 100%;
-    margin-left: 20px;
+    height: 100%;margin-left: 20px;
 }
 .nav {
     background-color: white;
 }
 body {
-    margin: 0;
-    background-color: rgba(255, 234, 234, 0.853);
+    margin: 0;background-color: rgba(255, 234, 234, 0.853);
 }
 html {
   scroll-behavior: smooth;
 }
 .title {
-    font-family: 'Playwrite IE', cursive; text-decoration:underline; font-size: 40px; margin-left: 50px;
+    font-family: 'Playwrite IE', cursive; text-decoration:underline; font-size: 30px; margin-left: 50px;
 }
 #Produtividade {
-    background-color: white;
-    height: 500px;
-    border: dashed 5px rgb(201, 201, 201);
+    background-image: url("../image/backopacity.png") ; background-size: cover; 
+    height: 500px; border-top: dashed 5px rgb(255, 255, 255); border-bottom: dashed 5px rgb(255, 255, 255);
+    margin-bottom: 10px; margin-top: 10px;
+
 }
 #IntEmocional {
-    background-color: white;
-    height: 500px;
-    border: dashed 5px rgb(201, 201, 201);
+    background-image:  url("../image/backopacity.png"); background-size: cover; 
+    height: 500px; border-top: dashed 5px rgb(255, 255, 255); border-bottom: dashed 5px rgb(255, 255, 255);
+    margin-bottom: 10px; margin-top: 10px;
 }
 #Autoconhecimento {
-    background-color: white;
-    height: 500px;
-    border: dashed 5px rgb(201, 201, 201);
+    background-image:  url("../image/backopacity.png"); background-size: cover; 
+    height: 500px; border-top: dashed 5px rgb(255, 255, 255); border-bottom: dashed 5px rgb(255, 255, 255);
+    margin-bottom: 10px; margin-top: 10px;    
+}
+footer {
+    border-bottom: solid rgb(255, 255, 255) 200px;
+    background-color: rgb(255, 255, 255);padding: 20px; text-align: center;border-top: dashed 5px rgb(164, 164, 164);
+}
+/* Estilos para as imagens */
+#Produtividade img {
+    display: inline;position: sticky; top: 0;
+    display: inline-block; margin-right: 20px;margin-left: 20px; border-radius: 30px; 
+    border: dashed 3px rgba(159, 159, 159, 0.614);
+    width: 300px; height: 60%;float: left;
+}
+#IntEmocional img {
+    display: inline;position: sticky; top: 0;
+    display: inline-block; margin-right: 20px;margin-left: 20px; border-radius: 30px; 
+    width: 300px; height: 60%;float: left;
+}
+#Autoconhecimento img {
+    display: inline;position: sticky; top: 0;
+    margin-right: 20px;margin-left: 20px; border-radius: 30px; 
+    border: dashed 3px rgba(159, 159, 159, 0.614);
+    width: 300px; height: 60%;float: left;
 }
