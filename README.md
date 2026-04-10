@@ -1,2 +1,3 @@
 # BemStar
-<u>Site de auto ajuda<u>
+Site com dicas de auto ajuda...
+<img src="image/bemstarlogo.png"> 
